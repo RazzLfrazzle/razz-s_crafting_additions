@@ -1,3 +1,8 @@
+Version 1.0
+Last updated: 8/21/2020
+
+Instalation: Drop the whole
+
 Current additions:
 Recipes:
 	Shapeless:
