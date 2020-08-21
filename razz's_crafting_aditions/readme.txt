@@ -1,7 +1,7 @@
 Version 1.0
 Last updated: 8/21/2020
 
-Instalation: Drop the whole
+Instalation: Drop the whole razz's_crafting_additions file into the datapacks folder of a world and it should work.
 
 Current additions:
 Recipes:
