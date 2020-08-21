@@ -1,0 +1,201 @@
+/summon villager ~ ~1 ~ 
+{
+	Invulnerable: 1,
+	Silent: 1,
+	NoAI: 1,
+	CustomName: "\"stone_condencer\"",
+	Offers: {
+		Recipes: [
+			{
+				buy: {id:stone,Count: 9
+				},
+                sell: {id:paper,Count: 1,tag: {display: {Name: "\"condensed stone\"",Lore: [
+								"Voucher redeemable for 9 stone"
+							]
+						},Enchantments: [
+							{id:infinity,lvl: 1
+							}
+						]
+					}
+				},
+                rewardExp: 0b,
+				maxUses: 9999999
+			},
+			{
+				buy: {id:paper,Count: 1,tag: {display: {Name: "\"condensed stone\"",Lore: [
+								"Voucher redeemable for 9 stone"
+							]
+						},Enchantments: [
+							{id:infinity,lvl: 1
+							}
+						]
+					}
+				},
+                sell: {id:stone,Count: 9
+				},
+                rewardExp: 0b,
+				maxUses: 9999999
+			},
+			{
+				buy: {id:paper,Count: 9,tag: {display: {Name: "\"condensed stone\"",Lore: [
+								"Voucher redeemable for 9 stone"
+							]
+						},Enchantments: [
+							{id:infinity,lvl: 1
+							}
+						]
+					}
+				},
+                sell: {id:paper,Count: 1,tag: {display: {Name: "\"Double condensed stone\"",Lore: [
+								"Voucher redeemable for 9 condensed stone"
+							]
+						},Enchantments: [
+							{id:infinity,lvl: 1
+							}
+						]
+					}
+				},
+                rewardExp: 0b,
+				maxUses: 9999999
+			},
+			{
+				buy: {id:paper,Count: 1,tag: {display: {Name: "\"Double condensed stone\"",Lore: [
+								"Voucher redeemable for 9 condensed stone"
+							]
+						},Enchantments: [
+							{id:infinity,lvl: 1
+							}
+						]
+					}
+				},
+                sell: {id:paper,Count: 9,tag: {display: {Name: "\"condensed stone\"",Lore: [
+								"Voucher redeemable for 9 stone"
+							]
+						},Enchantments: [
+							{id:infinity,lvl: 1
+							}
+						]
+					}
+				},
+                rewardExp: 0b,
+				maxUses: 9999999
+			},
+			{
+				buy: {id:paper,Count: 9,tag: {display: {Name: "\"Double condensed stone\"",Lore: [
+								"Voucher redeemable for 9 condensed stone"
+							]
+						},Enchantments: [
+							{id:infinity,lvl: 1
+							}
+						]
+					}
+				},
+				sell: {id:paper,Count: 1,tag: {display: {Name: "\"Triple condensed stone\"",Lore: [
+								"Voucher redeemable for 9 double condensed"
+							]
+						},Enchantments: [
+							{id:infinity,lvl: 1
+							}
+						]
+					}
+				},
+				rewardExp: 0b,
+				maxUses: 9999999
+			},
+			{
+				buy: {id:paper,Count: 1,tag: {display: {Name: "\"Triple condensed stone\"",Lore: [
+								"Voucher redeemable for 9 double condensed"
+							]
+						},Enchantments: [
+							{id:infinity,lvl: 1
+							}
+						]
+					}
+				},
+				sell: {id:paper,Count: 9,tag: {display: {Name: "\"Double condensed stone\"",Lore: [
+								"Voucher redeemable for 9 condensed stone"
+							]
+						},Enchantments: [
+							{id:infinity,lvl: 1
+							}
+						]
+					}
+				},
+				rewardExp: 0b,
+				maxUses: 9999999
+			}
+		]
+	}
+}
+
+		
+
+		syntax
+{
+	buy: {id:<name>,Count:#,tag: {<NBT data>
+		}
+	},
+    sell: {id:<name>,Count:#,tag: {<NBT data>
+		}
+	},
+    rewardExp: 0b,
+	maxUses: 9999999
+}
+
+	condensed stone
+tag: {display: {Name: "\"condensed stone\"",Lore: [
+			"Voucher redeemable for 9 stone"
+		]
+	},Enchantments: [
+		{id:infinity,lvl: 1
+		}
+	]
+}
+
+	Double condensed stone
+tag: {display: {Name: "\"Double condensed stone\"",Lore: [
+			"Voucher redeemable for 9 condensed stone"
+		]
+	},Enchantments: [
+		{id:infinity,lvl: 1
+		}
+	]
+}
+
+	Triple condensed stone
+tag: {display: {Name: "\"Triple condensed stone\"",Lore: [
+			"Voucher redeemable for 9 double condensed"
+		]
+	},Enchantments: [
+		{id:infinity,lvl: 1
+		}
+	]
+}
+
+	{buy: {id:paper,count: 1,tag: {display: {Name: "\"condensed stone\"",Lore: [
+					"Voucher redeemable for 9 stone"
+				]
+			},Enchantments: [
+				{id:infinity,lvl: 1
+				}
+			]
+		}
+	},sell: {id:stone,Count: 9
+	}
+/summon villager ~ ~1 ~ {Invulnerable: 1,PersistenceRequired: 1,Silent: 1,NoAI: 1,CustomName: "\"stone condencer\"",Offers: {Recipes: [
+				{buy: {id:paper,Count: 1,tag: {display: {Name: "\"Double condensed stone\""
+							},Lore: [
+								"Voucher redeemable},sell:{id:cyan_dye,Count:1,tag:{display:{Name:"\"asdf\"",Lore: [
+									"asdf"
+								]
+							}
+						}
+					},rewardExp: 0b,maxUses: 9999999
+				},
+				{buy: {id:acacia_fence,Count: 1
+					},sell: {id:chainmail_boots,Count: 1
+					},maxUses: 9999999
+				}
+			]
+		},Profession: 3,Career: 3,CareerLevel: 2
+	}

@@ -1,0 +1,43 @@
+{
+  "command": "kill @e[type=villager,name=cobblestone_condencer]",
+  "NBT": {
+    "buy": {
+      "id": "<name>",
+      "Count": "#",
+      "tag": {}
+    },
+    "sell": {
+      "id": "<name>",
+      "Count": "#",
+      "tag": {}
+    },
+    "rewardExp": "0b",
+    "maxUses": 9999999
+  },
+  "___comment": "Uncompressing Compressed Cobblestone",
+  "tag": {
+    "buy": {
+      "id": "paper",
+      "count": 1,
+      "tag": {
+        "display": {
+          "Name": "\"condensed cobblestone\"",
+          "Lore": [
+            "Voucher redeemable for 9 cobblestone"
+          ]
+        },
+        "Enchantments": [
+          {
+            "id": "infinity",
+            "lvl": 1
+          }
+        ]
+      }
+    },
+    "sell": {
+      "id": "cobblestone",
+      "Count": 9
+    }
+  },
+  "___Comment": "Triple condensed Cobblestone"
+}

@@ -1,0 +1,313 @@
+{
+	"final_command": "summon villager ~ ~1 ~",
+	"final_NBT": {
+		"Invulnerable": 1,
+		"Silent": 1,
+		"NoAI": 1,
+		"CustomName": "\"cobblestone_condencer\"",
+		"Offers": {
+			"Recipes": [
+				{
+					"buy": {
+						"id": "cobblestone",
+						"Count": 9
+					},
+					"sell": {
+						"id": "paper",
+						"Count": 1,
+						"tag": {
+							"display": {
+								"Name": "\"Condensed Cobblestone\"",
+								"Lore": [
+									"Voucher redeemable for 9 cobblestone"
+								]
+							},
+							"Enchantments": [
+								{
+									"id": "infinity",
+									"lvl": 1
+								}
+							]
+						}
+					},
+					"rewardExp": "0b",
+					"maxUses": 9999999
+				},
+				{
+					"buy": {
+						"id": "paper",
+						"Count": 1,
+						"tag": {
+							"display": {
+								"Name": "\"condensed cobblestone\"",
+								"Lore": [
+									"Voucher redeemable for 9 cobblestone"
+								]
+							},
+							"Enchantments": [
+								{
+									"id": "infinity",
+									"lvl": 1
+								}
+							]
+						}
+					},
+					"sell": {
+						"id": "cobblestone",
+						"Count": 9
+					},
+					"rewardExp": "0b",
+					"maxUses": 9999999
+				},
+				{
+					"buy": {
+						"id": "paper",
+						"Count": 9,
+						"tag": {
+							"display": {
+								"Name": "\"condensed cobblestone\"",
+								"Lore": [
+									"Voucher redeemable for 9 cobblestone"
+								]
+							},
+							"Enchantments": [
+								{
+									"id": "infinity",
+									"lvl": 1
+								}
+							]
+						}
+					},
+					"sell": {
+						"id": "paper",
+						"Count": 1,
+						"tag": {
+							"display": {
+								"Name": "\"Double condensed cobblestone\"",
+								"Lore": [
+									"Voucher redeemable for 9 condensed cobblestone"
+								]
+							},
+							"Enchantments": [
+								{
+									"id": "infinity",
+									"lvl": 1
+								}
+							]
+						}
+					},
+					"rewardExp": "0b",
+					"maxUses": 9999999
+				},
+				{
+					"buy": {
+						"id": "paper",
+						"Count": 1,
+						"tag": {
+							"display": {
+								"Name": "\"Double condensed cobblestone\"",
+								"Lore": [
+									"Voucher redeemable for 9 condensed cobblestone"
+								]
+							},
+							"Enchantments": [
+								{
+									"id": "infinity",
+									"lvl": 1
+								}
+							]
+						}
+					},
+					"sell": {
+						"id": "paper",
+						"Count": 9,
+						"tag": {
+							"display": {
+								"Name": "\"condensed cobblestone\"",
+								"Lore": [
+									"Voucher redeemable for 9 cobblestone"
+								]
+							},
+							"Enchantments": [
+								{
+									"id": "infinity",
+									"lvl": 1
+								}
+							]
+						}
+					},
+					"rewardExp": "0b",
+					"maxUses": 9999999
+				},
+				{
+					"buy": {
+						"id": "paper",
+						"Count": 9,
+						"tag": {
+							"display": {
+								"Name": "\"Double condensed cobblestone\"",
+								"Lore": [
+									"Voucher redeemable for 9 condensed cobblestone"
+								]
+							},
+							"Enchantments": [
+								{
+									"id": "infinity",
+									"lvl": 1
+								}
+							]
+						}
+					},
+					"sell": {
+						"id": "paper",
+						"Count": 1,
+						"tag": {
+							"display": {
+								"Name": "\"Triple condensed cobblestone\"",
+								"Lore": [
+									"Voucher redeemable for 9 double condensed"
+								]
+							},
+							"Enchantments": [
+								{
+									"id": "infinity",
+									"lvl": 1
+								}
+							]
+						}
+					},
+					"rewardExp": "0b",
+					"maxUses": 9999999
+				},
+				{
+					"buy": {
+						"id": "paper",
+						"Count": 1,
+						"tag": {
+							"display": {
+								"Name": "\"Triple condensed cobblestone\"",
+								"Lore": [
+									"Voucher redeemable for 9 double condensed"
+								]
+							},
+							"Enchantments": [
+								{
+									"id": "infinity",
+									"lvl": 1
+								}
+							]
+						}
+					},
+					"sell": {
+						"id": "paper",
+						"Count": 9,
+						"tag": {
+							"display": {
+								"Name": "\"Double condensed cobblestone\"",
+								"Lore": [
+									"Voucher redeemable for 9 condensed cobblestone"
+								]
+							},
+							"Enchantments": [
+								{
+									"id": "infinity",
+									"lvl": 1
+								}
+							]
+						}
+					},
+					"rewardExp": "0b",
+					"maxUses": 9999999
+				}
+			]
+		}
+	},
+	"kill_command": {
+		"command": "kill @e[type=villager,name=cobblestone_condencer]"
+	},
+	"___comment1": "syntax of NBT",
+	"NBT": {
+		"buy": {
+			"id": "<name>",
+			"Count": "#",
+			"tag": {}
+		},
+		"sell": {
+			"id": "<name>",
+			"Count": "#",
+			"tag": {}
+		},
+		"rewardExp": "0b",
+		"maxUses": 9999999
+	},
+	"___comment2": "condensed cobblestone",
+	"tag": {
+		"display": {
+			"Name": "\"condensed cobblestone\"",
+			"Lore": [
+				"Voucher redeemable for 9 cobblestone"
+			]
+		},
+		"Enchantments": [
+			{
+				"id": "infinity",
+				"lvl": 1
+			}
+		]
+	},
+	"___comment3": "Double condensed cobblestone",
+	"tag": {
+		"display": {
+			"Name": "\"Double condensed cobblestone\"",
+			"Lore": [
+				"Voucher redeemable for 9 condensed cobblestone"
+			]
+		},
+		"Enchantments": [
+			{
+				"id": "infinity",
+				"lvl": 1
+			}
+		]
+	},
+	"___comment4": "Triple condensed Cobblestone",
+	"tag": {
+		"display": {
+			"Name": "\"Triple condensed cobblestone\"",
+			"Lore": [
+				"Voucher redeemable for 9 double condensed"
+			]
+		},
+		"Enchantments": [
+			{
+				"id": "infinity",
+				"lvl": 1
+			}
+		]
+	},
+	"___comment5": "Uncompressing Compressed Cobblestone",
+	"tag": {
+		"buy": {
+			"id": "paper",
+			"count": 1,
+			"tag": {
+				"display": {
+					"Name": "\"condensed cobblestone\"",
+					"Lore": [
+						"Voucher redeemable for 9 cobblestone"
+					]
+				},
+				"Enchantments": [
+					{
+						"id": "infinity",
+						"lvl": 1
+					}
+				]
+			}
+		},
+		"sell": {
+			"id": "cobblestone",
+			"Count": 9
+		}
+	}
+}

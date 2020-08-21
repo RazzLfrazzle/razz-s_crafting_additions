@@ -1,0 +1,4 @@
+{
+  "command": "give @p minecraft:diamond_sword",
+  "NBT": "[Enchantments:[{id:sharpness,lvl:5}]]"
+}
