@@ -23,13 +23,14 @@ Recipes:
 				Dark prismarine
 				Honeycomb Block
 				Jungle planks
-				Magma Blocks
+				Magma blocks
 				Nether bricks
 				Oak planks
 				Prismarine
 				Prismarine bricks
 				Purpur block
 				Quartz block
+				Quartz brick
 				Reds sandstone
 				Sandstone
 				Spruce planks
