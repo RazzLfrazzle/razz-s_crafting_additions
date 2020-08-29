@@ -1,5 +1,5 @@
-Version 1.0
-Last updated: 8/21/2020
+Version 1.1
+Last updated: 8/29/2020
 
 Instalation: Drop the whole razz's_crafting_additions file into the datapacks folder of a world and it should work.
 
@@ -21,6 +21,7 @@ Recipes:
 				Clay
 				Dark oak planks
 				Dark prismarine
+				Honeycomb Block
 				Jungle planks
 				Magma Blocks
 				Nether bricks
@@ -58,3 +59,7 @@ Recipes:
 			2. Chiseled sandstone to sandstone (SS)
 On load
    1. A nice message saying the pack loaded
+
+
+Update log:
+1.1 8/29/2020: Added honeycomb and quartz brick uncrafting
